@@ -7,19 +7,19 @@ class Wizard():
     def __init__(self, name):
         self.name = name
         self.health = 60
-        self.power = 8
+        self.power = 80
 
 class Warrior():
     def __init__(self, name):
         self.name = name
         self.health = 80
-        self.power = 7
+        self.power = 70
 
 class Archer():
     def __init__(self, name):
         self.name = name
         self.health = 90
-        self.power = 6
+        self.power = 60
 
 hero = input(f'Choose your character, {name}. Wizard, Warrior, or Archer: ')
 
